@@ -7,7 +7,7 @@
     "./Packages/love.sayuki.installer_importer",
     "./Packages/love.sayuki.shape_key_mixer",
     "./Packages/love.sayuki.liltoon_cp",
-    "./Packages/love.sayuki.channel_packing_converter",
+    "./Packages/love.sayuki.channel_packing_converter"
   ],
   "repoUrls": []
 }
