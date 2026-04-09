@@ -1,7 +1,7 @@
 {
   "name": "Sayuki ToolBox",
   "id": "love.sayuki.vpm",
-  "url": "https://example.com/vpm/repo.json",
+  "url": "https://sayukidev.github.io/SayukiToolBox/repo.json",
   "author": "Sayuki",
   "packages": {}
 }
