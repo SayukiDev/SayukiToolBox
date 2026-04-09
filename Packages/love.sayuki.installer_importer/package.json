@@ -6,7 +6,8 @@
   "description": "Imports avatar installers as Modular Avatar components via NDMF.",
   "author": {
     "name": "Sayuki",
-    "url": "https://github.com/SayukiDev/SayukiToolBox"
+    "url": "https://github.com/SayukiDev/SayukiToolBox",
+    "email": "none@none.com"
   },
   "vpmDependencies": {
     "nadena.dev.modular-avatar": ">=1.10.0"
