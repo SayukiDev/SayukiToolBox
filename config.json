@@ -2,6 +2,7 @@
   "logLevel": "info",
   "outputPath": "./output/",
   "repoTemplate": "./repo_template.json",
+  "DownloadRepo": "SayukiDev/SayukiToolBox",
   "packagePaths": [
     "./Packages/love.sayuki.installer_importer",
     "./Packages/love.sayuki.shape_key_mixer"
