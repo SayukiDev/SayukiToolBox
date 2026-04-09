@@ -1,0 +1,23 @@
+{
+    "name": "InstallerImporter.Runtime",
+    "rootNamespace": "Sayuki.InstallerImporter",
+    "references": [
+        "nadena.dev.ndmf.runtime",
+        "nadena.dev.modular-avatar.core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.vrchat.avatars",
+            "expression": "",
+            "define": "MA_VRCSDK3_AVATARS"
+        }
+    ],
+    "noEngineReferences": false
+}

@@ -1,0 +1,76 @@
+msgid ""
+msgstr ""
+"Language: ja-JP\n"
+
+msgid "installer-importer.error.reflection-failed"
+msgstr "ModularAvatarMenuInstallTarget の型またはフィールドが見つかりません。"
+
+msgid "installer-importer.error.reflection-failed:hint"
+msgstr "Modular Avatarが更新された可能性があります。Installer Importerを最新版に更新してください。"
+
+msgid "installer-importer.error.no-install-target"
+msgstr "{0}: Install Target が設定されていません"
+
+msgid "installer-importer.error.no-install-source"
+msgstr "{0}: Install Source が設定されていません"
+
+msgid "installer-importer.info.no-installers-found"
+msgstr "{0}: MA Menu Installer が見つかりませんでした。"
+
+msgid "installer-importer.info.install-target-created"
+msgstr "Install Target 生成: {0} → {1}"
+
+msgid "root-mover.info.already-at-root"
+msgstr "{0}: 既にRoot直下のためスキップ"
+
+msgid "root-mover.info.moved-to-root"
+msgstr "{0} → Root直下に移動"
+
+msgid "installer-importer.dialog.title"
+msgstr "Installer Importer"
+
+msgid "installer-importer.dialog.requires-menu-item"
+msgstr "Installer Importer コンポーネントは ModularAvatarMenuItem または ModularAvatarMenuGroup がアタッチされたオブジェクトにのみ使用できます。"
+
+msgid "installer-importer.dialog.ok"
+msgstr "了解"
+
+msgid "installer-importer.inspector.description"
+msgstr "子階層のMA Menu Installerを収集し、ビルド時にInstall Targetを自動生成します。"
+
+msgid "installer-importer.inspector.install-target"
+msgstr "インストール先"
+
+msgid "installer-importer.inspector.installer-source"
+msgstr "インストーラー取得元"
+
+msgid "installer-importer.inspector.warn-no-target"
+msgstr "Install Targetが未設定です。このオブジェクトがインストール先として使用されます。"
+
+msgid "installer-importer.inspector.warn-no-source"
+msgstr "インストーラー取得元が未設定です。このオブジェクトが取得元として使用されます。"
+
+msgid "root-mover.inspector.description"
+msgstr "ビルド時にこのオブジェクト（または子オブジェクト）をアバターRoot直下に移動します。"
+
+msgid "root-mover.inspector.move-children-only"
+msgstr "子オブジェクトのみ移動"
+
+msgid "root-mover.inspector.exclusion-list"
+msgstr "除外リスト"
+
+msgid "root-mover.inspector.exclusion-not-applicable"
+msgstr "オブジェクト自体を移動する場合、除外リストは適用されません。"
+
+msgid "root-mover.info.excluded"
+msgstr "{0}: 除外リストによりRoot移動をスキップ"
+
+msgid "root-mover.info.no-children"
+msgstr "{0}: 移動する子オブジェクトがありません。"
+
+
+msgid "installer-importer.info.no-ma-menu-found"
+msgstr "{0}: Ma Menu見つかりませんでした"
+
+msgid "installer-importer.inspector.install-to-ma-sub-menu"
+msgstr "Maのサブメニュー引用元へインストール"

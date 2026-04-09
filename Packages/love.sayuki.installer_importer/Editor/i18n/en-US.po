@@ -1,0 +1,75 @@
+msgid ""
+msgstr ""
+"Language: en-US\n"
+
+msgid "installer-importer.error.reflection-failed"
+msgstr "ModularAvatarMenuInstallTarget type or field not found."
+
+msgid "installer-importer.error.reflection-failed:hint"
+msgstr "Modular Avatar may have been updated. Please update Installer Importer."
+
+msgid "installer-importer.error.no-install-target"
+msgstr "{0}: Install Target is not set."
+
+msgid "installer-importer.error.no-install-source"
+msgstr "{0}: Install Source is not set."
+
+msgid "installer-importer.info.no-installers-found"
+msgstr "{0}: No MA Menu Installers found."
+
+msgid "installer-importer.info.install-target-created"
+msgstr "Install Target created: {0} -> {1}"
+
+msgid "root-mover.info.already-at-root"
+msgstr "{0}: Already under root, skipping."
+
+msgid "root-mover.info.moved-to-root"
+msgstr "{0} -> Moved to root."
+
+msgid "installer-importer.dialog.title"
+msgstr "Installer Importer"
+
+msgid "installer-importer.dialog.requires-menu-item"
+msgstr "Installer Importer can only be used on objects with ModularAvatarMenuItem or ModularAvatarMenuGroup."
+
+msgid "installer-importer.dialog.ok"
+msgstr "OK"
+
+msgid "installer-importer.inspector.description"
+msgstr "Collects MA Menu Installers from children and creates Install Targets at build time."
+
+msgid "installer-importer.inspector.install-target"
+msgstr "Install Target"
+
+msgid "installer-importer.inspector.installer-source"
+msgstr "Installer Source"
+
+msgid "installer-importer.inspector.warn-no-target"
+msgstr "Install Target is not set. This object will be used as default."
+
+msgid "installer-importer.inspector.warn-no-source"
+msgstr "Installer Source is not set. This object will be used as default."
+
+msgid "root-mover.inspector.description"
+msgstr "Moves this object (or its children) to avatar root at build time."
+
+msgid "root-mover.inspector.move-children-only"
+msgstr "Move Children Only"
+
+msgid "root-mover.inspector.exclusion-list"
+msgstr "Exclusion List"
+
+msgid "root-mover.inspector.exclusion-not-applicable"
+msgstr "Exclusion list is not applicable when moving the entire object."
+
+msgid "root-mover.info.excluded"
+msgstr "{0}: Excluded from move to root."
+
+msgid "root-mover.info.no-children"
+msgstr "{0}: No children to move."
+
+msgid "installer-importer.info.no-ma-menu-found"
+msgstr "{0}: No MA Menu found."
+
+msgid "installer-importer.inspector.install-to-ma-sub-menu"
+msgstr "Install to MA Sub Menu"

@@ -1,0 +1,20 @@
+{
+    "name": "InstallerImporter.Editor",
+    "rootNamespace": "Sayuki.InstallerImporter.Editor",
+    "references": [
+        "nadena.dev.ndmf",
+        "InstallerImporter.Runtime",
+        "nadena.dev.modular-avatar.core"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

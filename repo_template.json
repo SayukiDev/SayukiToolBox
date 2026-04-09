@@ -1,0 +1,7 @@
+{
+  "name": "My VPM Repository",
+  "id": "love.sayuki.vpm",
+  "url": "https://example.com/vpm/repo.json",
+  "author": "Example Author",
+  "packages": {}
+}

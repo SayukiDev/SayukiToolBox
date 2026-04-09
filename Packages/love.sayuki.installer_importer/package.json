@@ -1,0 +1,13 @@
+{
+  "name": "love.sayuki.installer_importer",
+  "displayName": "Installer Importer",
+  "version": "0.1.0",
+  "unity": "2022.3",
+  "description": "Imports avatar installers as Modular Avatar components via NDMF.",
+  "author": {
+    "name": "Sayuki"
+  },
+  "vpmDependencies": {
+    "nadena.dev.modular-avatar": ">=1.10.0"
+  }
+}
