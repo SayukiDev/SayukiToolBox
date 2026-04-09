@@ -5,7 +5,8 @@
   "unity": "2022.3",
   "description": "Imports avatar installers as Modular Avatar components via NDMF.",
   "author": {
-    "name": "Sayuki"
+    "name": "Sayuki",
+    "url": "https://github.com/SayukiDev/SayukiToolBox"
   },
   "vpmDependencies": {
     "nadena.dev.modular-avatar": ">=1.10.0"

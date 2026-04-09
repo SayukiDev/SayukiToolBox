@@ -2,7 +2,7 @@
   "logLevel": "info",
   "outputPath": "./output/",
   "repoTemplate": "./repo_template.json",
-  "downloadRepo": "SayukiDev/VPM",
+  "downloadRepo": "SayukiDev/SayukiToolBox",
   "packagePaths": [
     "./Packages/love.sayuki.installer_importer"
   ],

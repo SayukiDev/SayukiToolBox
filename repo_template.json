@@ -1,7 +1,7 @@
 {
-  "name": "My VPM Repository",
+  "name": "Sayuki ToolBox",
   "id": "love.sayuki.vpm",
   "url": "https://example.com/vpm/repo.json",
-  "author": "Example Author",
+  "author": "Sayuki",
   "packages": {}
 }
