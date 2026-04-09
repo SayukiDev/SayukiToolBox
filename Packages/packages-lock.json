@@ -214,6 +214,12 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "love.sayuki.shape_key_mixer": {
+      "version": "file:love.sayuki.shape_key_mixer",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "nadena.dev.modular-avatar": {
       "version": "file:nadena.dev.modular-avatar",
       "depth": 0,

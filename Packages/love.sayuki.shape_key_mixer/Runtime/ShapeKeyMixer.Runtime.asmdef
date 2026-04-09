@@ -1,0 +1,16 @@
+{
+    "name": "ShapeKeyMixer.Runtime",
+    "rootNamespace": "Sayuki.ShapeKeyMixer",
+    "references": [
+        "nadena.dev.ndmf.runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,15 @@
+{
+  "name": "love.sayuki.shape_key_mixer",
+  "displayName": "ShapeKey Mixer",
+  "version": "1.0.0",
+  "unity": "2022.3",
+  "description": "Non-destructively mixes BlendShapes on SkinnedMeshRenderers via NDMF.",
+  "author": {
+    "name": "Sayuki",
+    "url": "https://github.com/SayukiDev/SayukiToolBox",
+    "email": "none@none.com"
+  },
+  "vpmDependencies": {
+    "nadena.dev.ndmf": ">=1.6.0"
+  }
+}

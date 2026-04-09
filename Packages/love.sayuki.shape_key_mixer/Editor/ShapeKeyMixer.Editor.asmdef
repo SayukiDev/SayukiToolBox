@@ -1,0 +1,21 @@
+{
+    "name": "ShapeKeyMixer.Editor",
+    "rootNamespace": "Sayuki.ShapeKeyMixer.Editor",
+    "references": [
+        "nadena.dev.ndmf",
+        "ShapeKeyMixer.Runtime",
+        "Unity.Burst",
+        "Unity.Collections"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
