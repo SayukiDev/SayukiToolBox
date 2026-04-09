@@ -1,9 +1,9 @@
 {
   "name": "love.sayuki.liltoon_cp",
   "displayName": "lilToon Channel Packed",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "unity": "2022.3",
-  "description": "lilToon custom shader that samples AO/Height/Roughness/Metallic from a channel-packed mask texture.",
+  "description": "A custom Liltoon shader updated with a channel packing feature, allowing you to read specific channels for certain mask textures.",
   "author": {
     "name": "Sayuki",
     "url": "https://github.com/SayukiDev/SayukiToolBox",

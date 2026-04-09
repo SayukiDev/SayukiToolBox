@@ -1,7 +1,7 @@
 {
   "name": "love.sayuki.installer_importer",
   "displayName": "Installer Importer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "unity": "2022.3",
   "description": "Auto imports Ma Menu installer to Ma Menu Menu And Move Object to Avatar Root when build process via NDMF.",
   "author": {
