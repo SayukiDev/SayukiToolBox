@@ -1,0 +1,61 @@
+name: Build Repo Listing
+
+on:
+  workflow_run:
+    workflows: ["Build and Upload VPM Packages"]
+    types:
+      - completed
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build-listing:
+    name: build-listing
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download VPMBuilder
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release download \
+            --repo SayukiDev/VPMBuilder \
+            --pattern 'VPMBuilder-linux-amd64' \
+            --output VPMBuilder
+          chmod +x VPMBuilder
+
+      - name: Build repo manifest
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: ./VPMBuilder build -t repo -c ./config.json
+
+      - name: Stage Pages site
+        run: |
+          mkdir -p _site
+          cp ./output/repo.json _site/repo.json
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
