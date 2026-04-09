@@ -1,0 +1,16 @@
+{
+  "name": "love.sayuki.channel_packing_converter",
+  "displayName": "Channel Packing Converter",
+  "version": "0.1.0",
+  "unity": "2022.3",
+  "description": "NDMF plugin that packs AO/Height/Roughness/Metallic textures into a single channel-packed mask at build time.",
+  "author": {
+    "name": "Sayuki",
+    "url": "https://github.com/SayukiDev/SayukiToolBox",
+    "email": "none@none.com"
+  },
+  "vpmDependencies": {
+    "nadena.dev.ndmf": ">=1.4.0",
+    "love.sayuki.liltoon_cp": ">=0.1.0"
+  }
+}

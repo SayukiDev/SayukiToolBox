@@ -208,8 +208,26 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "jp.lilxyzw.liltoon": {
+      "version": "file:jp.lilxyzw.liltoon",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "love.sayuki.channel_packing_converter": {
+      "version": "file:love.sayuki.channel_packing_converter",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "love.sayuki.installer_importer": {
       "version": "file:love.sayuki.installer_importer",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "love.sayuki.liltoon_cp": {
+      "version": "file:love.sayuki.liltoon_cp",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}

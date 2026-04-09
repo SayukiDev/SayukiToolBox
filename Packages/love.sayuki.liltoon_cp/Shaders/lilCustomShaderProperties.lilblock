@@ -1,0 +1,13 @@
+//------------------------------------------------------------------------------------------------------------------------------
+// Channel Packed Masks - Custom Properties
+// Channel selection for each mask (0=R, 1=G, 2=B, 3=A, 4=RGB default)
+//------------------------------------------------------------------------------------------------------------------------------
+[lilHDR] _CPM_Emission1stChannel ("Emission 1st Mask Channel", Int) = 4
+[lilHDR] _CPM_Emission2ndChannel ("Emission 2nd Mask Channel", Int) = 4
+[lilHDR] _CPM_GlitterChannel ("Glitter Mask Channel", Int) = 4
+[lilHDR] _CPM_MatCapChannel ("MatCap 1st Mask Channel", Int) = 4
+[lilHDR] _CPM_MatCap2ndChannel ("MatCap 2nd Mask Channel", Int) = 4
+[lilHDR] _CPM_RimLightChannel ("RimLight Mask Channel", Int) = 4
+[lilHDR] _CPM_RimShadeChannel ("RimShade Mask Channel", Int) = 0
+[lilHDR] _CPM_BacklightChannel ("Backlight Mask Channel", Int) = 4
+[lilHDR] _CPM_AlphaMaskChannel ("Alpha Mask Channel", Int) = 0

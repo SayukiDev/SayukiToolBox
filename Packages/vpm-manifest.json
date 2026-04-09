@@ -5,6 +5,9 @@
     },
     "nadena.dev.modular-avatar": {
       "version": "1.16.2"
+    },
+    "jp.lilxyzw.liltoon": {
+      "version": "2.3.2"
     }
   },
   "locked": {
@@ -27,6 +30,10 @@
       "dependencies": {
         "nadena.dev.ndmf": ">=1.11.0 <2.0.0-a"
       }
+    },
+    "jp.lilxyzw.liltoon": {
+      "version": "2.3.2",
+      "dependencies": {}
     }
   }
 }

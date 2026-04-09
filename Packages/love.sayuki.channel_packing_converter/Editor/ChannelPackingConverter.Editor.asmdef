@@ -1,0 +1,19 @@
+{
+    "name": "ChannelPackingConverter.Editor",
+    "rootNamespace": "Sayuki.ChannelPackingConverter.Editor",
+    "references": [
+        "nadena.dev.ndmf",
+        "ChannelPackingConverter.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

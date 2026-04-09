@@ -3,7 +3,7 @@
   "displayName": "Installer Importer",
   "version": "0.1.0",
   "unity": "2022.3",
-  "description": "Imports avatar installers as Modular Avatar components via NDMF.",
+  "description": "Auto imports Ma Menu installer to Ma Menu Menu And Move Object to Avatar Root when build process via NDMF.",
   "author": {
     "name": "Sayuki",
     "url": "https://github.com/SayukiDev/SayukiToolBox",
