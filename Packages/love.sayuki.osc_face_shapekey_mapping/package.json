@@ -1,0 +1,16 @@
+{
+  "name": "love.sayuki.osc_face_shapekey_mapping",
+  "displayName": "OSC Face ShapeKey Mapping",
+  "version": "1.0.0",
+  "unity": "2022.3",
+  "description": "Non-destructively maps face BlendShapes to unsynced avatar parameters (prefix VRCSBPOSC_) for OSC control via NDMF.",
+  "author": {
+    "name": "Sayuki",
+    "url": "https://github.com/SayukiDev/SayukiToolBox",
+    "email": "none@none.com"
+  },
+  "vpmDependencies": {
+    "nadena.dev.ndmf": ">=1.6.0",
+    "com.vrchat.avatars": ">=3.7.0"
+  }
+}
